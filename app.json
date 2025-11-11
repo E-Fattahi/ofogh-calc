@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "ماشین حساب افق",
-    "slug": "ofogh-calculator",
+    "slug": "ofogh-calculator", 
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -20,13 +20,16 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/adaptive-icon.png", 
         "backgroundColor": "#FFFFFF"
       },
       "package": "com.ofogh.calculator"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "cli": {
+      "appVersionSource": "local"
     }
   }
 }
