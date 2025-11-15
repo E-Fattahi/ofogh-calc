@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "ماشین حساب افق",
-    "slug": "ofogh-calculator", 
+    "slug": "ofogh-calculator",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -20,14 +20,31 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png", 
+        "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
       },
-      "package": "com.ofogh.calculator"
+      "package": "com.ofogh.calculator",
+      "permissions": []
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
+    "plugins": [
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "compileSdkVersion": 34,
+            "targetSdkVersion": 34,
+            "buildToolsVersion": "34.0.0",
+            "useNextNotifications": true
+          },
+          "ios": {
+            "deploymentTarget": "13.0"
+          }
+        }
+      ]
+    ],
     "cli": {
       "appVersionSource": "local"
     }
